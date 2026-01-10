@@ -21,7 +21,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=twoken404&show_icons=true&theme=default&hide_border=true&card_width=380&hide_title=false&hide_rank=false
+          options: username=twoken404&show_icons=true&theme=default&hide_border=true&card_width=380
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -29,24 +29,17 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=twoken404&layout=compact&langs_count=6&hide=html,css,javascript,typescript,shell&theme=default&card_width=380&hide_border=true
+          options: username=twoken404&layout=compact&langs_count=6&hide=html,css,javascript&theme=default&card_width=380&hide_border=true
           path: assets/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Pin Card for AI Assistant
+      - name: Generate Pin Card for Profile
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=twoken404&repo=AI-Assistant&theme=default&hide_border=true&card_width=380&show_owner=true
-          path: assets/pin-ai-assistant.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Pin Card for Chat Platform
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: pin
-          options: username=twoken404&repo=chat-platform&theme=default&hide_border=true&card_width=380&show_owner=true
-          path: assets/pin-chat-platform.svg
+          # 这是你的个人主页仓库
+          options: username=twoken404&repo=twoken404&theme=default&hide_border=true&card_width=380&show_owner=true
+          path: assets/pin-profile.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push changes
@@ -54,5 +47,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/*.svg
-          git commit -m "📊 Update GitHub stats [$(date +'%Y-%m-%d %H:%M')]" || exit 0
+          git commit -m "📊 Update GitHub stats" || exit 0
           git push
