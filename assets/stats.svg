@@ -1,19 +1,19 @@
 
       <svg
-        width="467"
+        width="437"
         height="195"
-        viewBox="0 0 467 195"
+        viewBox="0 0 437 195"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
         <title id="titleId">twoken's GitHub Stats, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 8, Total Commits  (last year) : 139, Total PRs: 0, Total Issues: 3, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 8, Total Commits  : 124, Total PRs: 0, Total Issues: 3, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #fff;
+            fill: #2f80ed;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #9f9f9f;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #434d58;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9f9f9f;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #79ff97;
+      fill: #4c71f2;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #fff;
+      stroke: #2f80ed;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #fff;
+      stroke: #2f80ed;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 222.800185938898;
+        stroke-dashoffset: 232.74665493719493;
       }
     }
   
@@ -110,8 +110,8 @@
           rx="4.5"
           height="99%"
           stroke="#e4e2e2"
-          width="466"
-          fill="#0f172a"
+          width="436"
+          fill="#fffefe"
           stroke-opacity="0"
         />
 
@@ -137,7 +137,7 @@
         >
           
     <g data-testid="rank-circle"
-          transform="translate(390.5, 47.5)">
+          transform="translate(367, 47.5)">
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
         <g class="rank-text">
@@ -171,13 +171,13 @@
       <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
     </svg>
   
-      <text class="stat  bold" x="25" y="12.5">Total Commits (last year):</text>
+      <text class="stat  bold" x="25" y="12.5">Total Commits:</text>
       <text
         class="stat  bold"
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >139</text>
+      >124</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
