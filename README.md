@@ -6,6 +6,7 @@
   <li>🪁 Find me at <a href="https://x.com/twoken" target="_blank"><strong>twoken@X</strong></a></li>
   <li>📫 Contact me through <a href="mailto:twoken@gmail.com"><strong>twoken@gmail.com</strong></a></li>
 </ul>
+
 <h3>Languages and Tools:</h3>
 <p>
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
@@ -21,5 +22,10 @@
   <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>
   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
 </p>
-<h3>Github Stats:</h3>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=twoken404&show_icons=true&locale=en" alt="twoken404" /></p>
+
+<h3>📊 GitHub Stats:</h3>
+
+<p align="center">
+  <img height="180em" src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/stats.svg" alt="GitHub Stats" />
+  <img height="180em" src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/top-langs.svg" alt="Top Languages" />
+</p>
