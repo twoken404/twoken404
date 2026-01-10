@@ -29,7 +29,7 @@
   <a href="https://github.com/twoken404">
       <img src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/pin-ai-assistant.svg" alt="AI Assistant" width="380" style="border: 1px solid #e1e4e8; border-radius: 8px; margin: 5px;" />
   </a>
-  <a href="https://github.com/twoken404/chat-platform">
+  <a href="https://github.com/twoken404">
     <img src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/pin-chat-platform.svg" alt="Chat Platform" width="380" style="border: 1px solid #e1e4e8; border-radius: 8px; margin: 5px;" />
   </a>
 </p>
