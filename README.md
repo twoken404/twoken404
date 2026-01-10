@@ -26,6 +26,10 @@
 <h3>📊 GitHub Stats:</h3>
 
 <p align="center">
-  <img height="180em" src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/stats.svg" alt="GitHub Stats" />
-  <img height="180em" src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/top-langs.svg" alt="Top Languages" />
+  <a href="https://github.com/twoken404">
+    <img height="170" src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/stats.svg" alt="GitHub Stats" style="border: 1px solid #e1e4e8; border-radius: 8px; margin-right: 10px;" />
+  </a>
+  <a href="https://github.com/twoken404">
+    <img height="170" src="https://raw.githubusercontent.com/twoken404/twoken404/main/assets/top-langs.svg" alt="Top Languages" style="border: 1px solid #e1e4e8; border-radius: 8px;" />
+  </a>
 </p>
