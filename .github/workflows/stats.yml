@@ -2,8 +2,8 @@ name: Update GitHub Stats Cards
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # 每天 UTC 6 点（北京时间 14 点）
-  workflow_dispatch:      # 允许手动运行
+    - cron: "0 6 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -21,8 +21,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          # 白色主题，固定宽度，美观参数
-          options: username=twoken404&show_icons=true&theme=default&hide_border=true&card_width=380&hide_title=false&hide_rank=false&count_private=true&include_all_commits=true
+          options: username=twoken404&show_icons=true&theme=default&hide_border=true&card_width=380&hide_title=false&hide_rank=false
           path: assets/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -30,9 +29,24 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          # 白色主题，相同宽度，优化语言显示
-          options: username=twoken404&layout=compact&langs_count=6&hide=html,css,javascript,typescript,shell&theme=default&card_width=380&hide_border=true&size_weight=0.5&exclude_repo=twoken404.github.io
+          options: username=twoken404&layout=compact&langs_count=6&hide=html,css,javascript,typescript,shell&theme=default&card_width=380&hide_border=true
           path: assets/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Pin Card for AI Assistant
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=twoken404&repo=AI-Assistant&theme=default&hide_border=true&card_width=380&show_owner=true
+          path: assets/pin-ai-assistant.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Pin Card for Chat Platform
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=twoken404&repo=chat-platform&theme=default&hide_border=true&card_width=380&show_owner=true
+          path: assets/pin-chat-platform.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push changes
